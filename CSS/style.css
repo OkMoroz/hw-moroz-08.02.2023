@@ -1,0 +1,49 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f0efe7;
+  margin: 25px;
+}
+header {
+  text-align: center;
+}
+h1 {
+  font-family: "Merriweather", Georgia, Serif;
+  text-align: center;
+  color: rgb(18, 63, 108);
+}
+h2 {
+  font-family: "Merriweather", Georgia, Serif;
+  color: rgb(18, 63, 108);
+}
+img {
+  text-align: center;
+  margin: 20px;
+  border-width: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #f44336 #2196f3 #4caf50 #ff9800;
+  cursor: pointer;
+}
+p,
+li {
+  color: rgb(18, 63, 108);
+}
+
+.click {
+  display: inline;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  position: relative;
+  cursor: pointer;
+}
+.decoration {
+  text-decoration: none;
+  color: #4caf50;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Merriweather", Georgia, Serif;
+  font-weight: 900;
+  line-height: 1;
+  border-top: 1px solid transparent;
+}
