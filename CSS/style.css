@@ -5,9 +5,15 @@ body {
 header {
   text-align: center;
 }
-h1, h2 {
+h1 {
   font-family: "Merriweather", Georgia, Serif;
   color: rgb(18, 63, 108);
+}
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(18, 63, 108);
+  text-decoration-line: underline;
 }
 img {
   text-align: center;
@@ -22,6 +28,7 @@ li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(18, 63, 108);
+  font-size: 16px;
 }
 
 .click {
