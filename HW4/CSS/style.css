@@ -1,0 +1,31 @@
+/* за id */
+#heading {
+  color: rgb(217, 17, 157);
+}
+/* за назвою елемента */
+h4 {
+  color: rgb(9, 109, 54);
+}
+/* за класом */
+.item {
+  color: rgb(218, 63, 135);
+  list-style-type: square;
+}
+.text {
+  color: rgb(16, 85, 211);
+}
+/* за кількома класами */
+.text .item {
+  color: rgb(68, 40, 134);
+}
+/* за вкладеністю */
+ol li {
+  color: rgb(239, 77, 169);
+}
+div p {
+  color: darkolivegreen;
+}
+/* комбінації */
+h4 + p {
+  color: orange;
+}
