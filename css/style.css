@@ -14,19 +14,19 @@
   display: inline-block;
   background: #e6e6e6;
   width: 1000px;
-  margin: 25px 50px 25px 50px;
+  margin: 50px 50px 0 50px;
 }
 
 .wrappage {
   display: block;
   background: #e6e6e6;
-  width: 950px;
-  margin-right: 0;
+  float: right;
 }
 
 .card {
   text-align: center;
   font-style: normal;
+  font-family: "Roboto";
   font-weight: 700;
   line-height: 75px;
   width: 200px;
@@ -34,28 +34,26 @@
   background: #fc8f8f;
   font-size: 64px;
   color: #ffffff;
+  padding: 60px;
 }
 
 .card.small {
-  text-align: center;
   width: 100px;
   height: 100px;
-  background: #fc8f8f;
   font-size: 36px;
   line-height: 42px;
-  color: #ffffff;
+  padding: 25px;
 }
 
 .float-left {
   float: left;
+ 
   margin-right: 15px;
 }
 .float-right {
   float: right;
+ 
   margin-left: 15px;
-}
-.wrappage  {
-  float: right;
 }
 .clearfix {
   clear: both;
@@ -64,6 +62,6 @@
 .clear {
   clear: both;
   display: block;
-  border: 1px solid red;
-  height: 0;
+  /* border: 1px solid red;
+  height: 0; */
 }
