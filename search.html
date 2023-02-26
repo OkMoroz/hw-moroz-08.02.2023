@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="name">Cайт з продажу <br> та пошуку автомобілів</h1>
+        <ul class="nav">
+            <li class="nav-item"><a href="./index.html">РЕЄСТРАЦІЯ</a></li>
+            <li class="nav-item"><a href="./authorization.html">АВТОРИЗАЦІЯ</a> </li>
+            <li class="nav-item"><a href="./search.html">ПОШУК</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h2>АВТОМОБІЛЬ</h2>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset class="set search">
+                        <p>
+                            <label>Тип кузова: <select name="body">
+                                    <option value="всі">Всі</option>
+                                    <option value="седан">Седан</option>
+                                    <option value="універсал">Універсал</option>
+                                    <option value="гетчбек">Гетчбек</option>
+                                    <option value="купе">Купе</option>
+                                    <option value="мінівен">Мінівен</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>Марка автомобіля:</label>
+                            <select name="cars">
+                                <option value="всі">Всі</option>
+                                <option value="mazda">Mazda</option>
+                                <option value="BMW">BMW</option>
+                                <option value="chery">Chery</option>
+                                <option value="audi">Audi</option>
+                                <option value="mitsubishi">Mitsubishi</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Колір: </label>
+                            <select name="colour">
+                                <option value="всі">Всі</option>
+                                <option value="червоний">Червоний</option>
+                                <option value="чорний">Чорний</option>
+                                <option value="білий">Білий</option>
+                                <option value="синій">Синій</option>
+                                <option value="зелений">Зелений</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Ціна: </label>
+                            <br>
+                            <input type="number" name="prise" min="10000" max="1000000">
+                        </p>
+                        <p>
+                            <label>Рік випуску: </label>
+                            <br>
+                            <input type="number" name="year" min="1900" max="2023">
+                        </p>
+                        <p>
+                            <label>Країна виробник: </label>
+                            <br>
+                            <input type="radio" name="group" value="США"> США
+                            <br>
+                            <input type="radio" name="group" value="Іспанія"> Іспанія
+                            <br>
+                            <input type="radio" name="group" value="Бразилія"> Бразилія
+                            <br>
+                            <input type="radio" name="group" value="Франція"> Франція
+                            <br>
+                            <input type="radio" name="group" value="Великобританія"> Великобританія
+                        </p>
+                        <p>
+                            <label>Стан: </label>
+                            <br>
+                            <input type="checkbox" name="state" checked>На ходу, технічно справна.
+                            <br>
+                            <input type="checkbox" name="state" checked>Не бита.
+                            <br>
+                            <input type="checkbox" name="state" checked>На фарбована.
+                            <br>
+                            <input type="checkbox" name="state" checked>Потребує кузовного ремонту.
+                            <br>
+                            <input type="checkbox" name="state" checked>Не на ходу.
+                        </p>
+                        <p>
+                            <label>Вид палива: </label>
+                            <br>
+                            <input type="radio" name="groupFuel" value="бензин"> Бензин
+                            <br>
+                            <input type="radio" name="groupFuel" value="дизель"> Дизель
+                            <br>
+                            <input type="radio" name="groupFuel" value="гібрид"> Гібрид
+                            <br>
+                        </p>
+                        <p>
+                            <label>Тип коробки передач: </label>
+                            <br>
+                            <input type="checkbox" name="transmission" checked>Механічна.
+                            <br>
+                            <input type="checkbox" name="transmission" checked>Автомат.
+                        </p>
+                        <button id="button">Пошук</button>
+                    </fieldset>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; Oksana Moroz</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
