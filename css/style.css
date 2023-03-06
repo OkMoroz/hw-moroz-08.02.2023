@@ -90,47 +90,40 @@
   height: 250px;
 }
 
-.card {
-  max-width: 141px;
-  max-height: 50px;
+.card-container {
+  display: inline-block;
+  max-width: 1110px;
 }
-
-.card img {
-  display: block;
-  padding: 100px 20px 100px 0;
-  float: left;
-}
-
 .card .card-title {
   font-size: 21px;
   font-weight: 500;
   padding-bottom: 10px;
 }
-
 .card .description {
   font-weight: 400;
   font-size: 16px;
 }
 
+.card {
+  display: block;
+  max-width: 50px;
+  min-height: 50px;
+  float: left;
+  padding-top: 100px;
+}
+
 .box {
   display: block;
-  padding-top: 97px;
-  padding-bottom: 97px;
-}
-
-.wrapper .card .box {
-  display: inline-block;
-}
-
-.card + .card {
-  padding-right: 45px;
+  max-width: 71px;
+  min-height: 44px;
+  padding-left: 20px;
+  float: right;
+  padding-top: 100px;
 }
 
 .clearfix {
   clear: both;
 }
-
-
 /* ---------------------------- */
 
 .fourth-section .container {
