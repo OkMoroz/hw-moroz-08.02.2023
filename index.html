@@ -5,32 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic template</title>
+    <title>Simple Site</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header bg-grey">
         <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="nav-link first-link">HOMEPAGE</a>
+                <a href="./index.html" class="nav-link">ABOUT AUTHOR</a>
+                <a href="./index.html" class="nav-link">WORKS</a>
+                <a href="./index.html" class="nav-link">PROCESS</a>
+                <a href="./index.html" class="nav-link">CONTACTS</a>
+            </nav>
         </div>
     </header>
+
     <main class="main">
-        <section class="section">
+        <section class="first-section bg-grey">
             <div class="container">
-                <h1>Section</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat recusandae expedita minus saepe
-                    odit aliquam consectetur rerum soluta, porro animi, cumque nihil tenetur non id maiores adipisci ab
-                    inventore deleniti.
-                </p>
-                <img src="." alt="image" width="300">
+                <h1 class="main-title">Design and layout</h1>
+                <div class="wrapper">
+                    <p class="design-section">Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum
+                        has been the standard "fish" for Latin texts since the early 16th century.</p>
+                </div>
+                <div class="button bg-blue text">WRITE ME
+                </div>
             </div>
         </section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <!-- ------------------------->
     </main>
-    <footer class="footer">
+    <footer class="footer bg-blue">
         <div class="container">
-            <p>&copy; Oksana Moroz</p>
+            <p class="name">John Smith</p>
+            <p class="copy">&copy; 2023 All rights reserved.</p>
         </div>
     </footer>
 </body>

@@ -1,35 +1,85 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("./basic.css");
+
+.bg-grey {
+  background-color: var(--color-grey);
 }
 
-a,
-a:hover {
-  color: inherit;
-  text-decoration: none;
+.bg-blue {
+  background-color: var(--color-blue);
+  color: #ffffff;
+}
+.bg-white {
+  background-color: var(--color-white);
 }
 
-img {
-  max-width: 100%;
-}
-
-html {
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #252525;
-}
-
-body {
-  background-color: azure;
-}
-
-.container {
+.mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.hidden {
-  display: none !important;
+.section-title {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+/* ------------------------ */
+
+.header .container {
+  padding-top: 79px;
+  padding-bottom: 151px;
+  letter-spacing: 0.1em;
+  color: #000000;
+} 
+
+.first-link {
+  height: 27px;
+  font-weight: 500;
+  color: #34547a;
+}
+.nav-link + .nav-link {
+  margin-left: 42px;
+}
+
+.first-section .container {
+  font-family: "Roboto", sans-serif;
+  width: 1920px;
+  height: 443px;
+}
+.main-title {
+  padding-bottom: 60px;
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
+  max-width: 541px;
+}
+.design-section{
+  max-width: 540px;
+  padding-bottom: 65px;
+}
+.button.text{
+  padding: 19px 41px 20px 41px;
+  text-align: center;
+}
+.button{
+  max-width: 225px;
+  margin-bottom: 121px;
+}
+
+/* ---------------------------- */
+
+/* ---------------------------- */
+.footer .container {
+  width: 1920px;
+  height: 151px;
+}
+.name {
+  font-weight: 500;
+  font-size: 21px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.copy {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 50px;
 }
