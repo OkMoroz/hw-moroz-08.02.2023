@@ -29,7 +29,7 @@
   padding-bottom: 151px;
   letter-spacing: 0.1em;
   color: #000000;
-} 
+}
 
 .first-link {
   height: 27px;
@@ -52,20 +52,31 @@
   color: #000000;
   max-width: 541px;
 }
-.design-section{
+.design-section {
   max-width: 540px;
   padding-bottom: 65px;
 }
-.button.text{
+.button.text {
   padding: 19px 41px 20px 41px;
   text-align: center;
 }
-.button{
+.button {
   max-width: 225px;
   margin-bottom: 121px;
 }
 
 /* ---------------------------- */
+
+.second-section .container {
+  width: 1920px;
+  height: 359px;
+}
+.about-me {
+  max-width: 540px;
+  padding-top: 112px;
+  padding-bottom: 100px;
+  text-align: center;
+}
 
 /* ---------------------------- */
 .footer .container {
