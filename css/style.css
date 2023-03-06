@@ -71,6 +71,7 @@
   width: 1920px;
   height: 359px;
 }
+
 .about-me {
   max-width: 540px;
   padding-top: 112px;
@@ -79,6 +80,35 @@
 }
 
 /* ---------------------------- */
+.third-section .container {
+  width: 1920px;
+  height: 250px;
+}
+
+/* ---------------------------- */
+.fourth-section .container {
+  width: 1920px;
+  height: 1004px;
+}
+
+ .video-title{
+  max-width: 540px;
+  padding-top: 112px;
+  padding-bottom: 57px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video {
+  max-width: 1110px;
+  padding-bottom: 72px;
+
+}
+
+/* ---------------------------- */
+
+/* ---------------------------- */
+
 .footer .container {
   width: 1920px;
   height: 151px;
