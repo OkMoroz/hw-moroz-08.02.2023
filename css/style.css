@@ -8,6 +8,7 @@
   background-color: var(--color-blue);
   color: #ffffff;
 }
+
 .bg-white {
   background-color: var(--color-white);
 }
@@ -25,8 +26,8 @@
 /* ------------------------ */
 
 .header .container {
-  padding-top: 79px;
-  padding-bottom: 151px;
+  margin-top: 79px;
+  margin-bottom: 151px;
   letter-spacing: 0.1em;
   color: #000000;
 }
@@ -42,12 +43,11 @@
 
 .first-section .container {
   font-family: "Roboto", sans-serif;
-  width: 1920px;
   height: 443px;
 }
 
 .main-title {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   font-weight: 500;
   font-size: 48px;
   color: #000000;
@@ -56,7 +56,7 @@
 
 .design-section {
   max-width: 540px;
-  padding-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .button.text {
@@ -72,68 +72,60 @@
 /* ---------------------------- */
 
 .second-section .container {
-  width: 1920px;
   height: 359px;
 }
 
 .about-me {
   max-width: 540px;
   padding-top: 112px;
-  padding-bottom: 100px;
+  padding-bottom: 57px;
+  margin: 0 auto;
   text-align: center;
 }
 
 /* ---------------------------- */
 
 .third-section .container {
-  width: 1920px;
   height: 250px;
 }
 
-.card-container {
+.card {
   display: inline-block;
-  max-width: 1110px;
+  width: 141px;
+  margin-right: 40px;
 }
-.card .card-title {
+
+.card-image {
+  display: block;
+  margin: 100px 0 100px 0;
+  padding-right: 20px;
+  float: left;
+}
+
+.box {
+  padding-top: 97px;
+  display: block;
+}
+
+.card-title {
   font-size: 21px;
   font-weight: 500;
-  padding-bottom: 10px;
 }
-.card .description {
+
+.description {
   font-weight: 400;
   font-size: 16px;
 }
 
-.card {
-  display: block;
-  max-width: 50px;
-  min-height: 50px;
-  float: left;
-  padding-top: 100px;
-}
-
-.box {
-  display: block;
-  max-width: 71px;
-  min-height: 44px;
-  padding-left: 20px;
-  float: right;
-  padding-top: 100px;
-}
-
-.clearfix {
-  clear: both;
-}
 /* ---------------------------- */
 
 .fourth-section .container {
-  width: 1920px;
   height: 1004px;
 }
 
 .video-title {
   max-width: 540px;
-  padding-top: 112px;
+  padding-top: 100px;
   padding-bottom: 57px;
   margin: 0 auto;
   text-align: center;
@@ -147,19 +139,18 @@
 /* ---------------------------- */
 
 .footer .container {
-  width: 1920px;
   height: 151px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .name {
   font-weight: 500;
   font-size: 21px;
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .copy {
   font-weight: 400;
   font-size: 13px;
-  margin-bottom: 50px;
 }
