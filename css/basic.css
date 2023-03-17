@@ -28,6 +28,7 @@ img {
 button {
   font: inherit;
   background-color: transparent;
+  cursor: pointer;
 }
 
 html {

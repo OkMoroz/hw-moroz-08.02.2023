@@ -25,7 +25,9 @@
 }
 
 /* --------------HEADER---------------- */
-
+.header .container {
+  max-width: 1316px;
+}
 .header .line {
   padding: 36px 0 36px 0;
 }
@@ -40,7 +42,6 @@
   text-align: center;
   min-width: 126px;
   line-height: 42px;
-  cursor: pointer;
 }
 .btn:hover {
   background-color: var(--color-darkbeige);
@@ -53,3 +54,51 @@
 }
 
 /* -------------FIRST SECTION ---------------*/
+.first-section .container {
+  display: flex;
+  min-width: 1316px;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+.first-section .text-wrap {
+  max-width: 675px;
+}
+.first-section .main-title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.14;
+  margin-bottom: 32px;
+}
+.first-section .decoration-line {
+  display: flex;
+  gap: 16px;
+  font-size: 23px;
+  line-height: 1.4;
+  letter-spacing: 0.48px;
+  margin-bottom: 40px;
+}
+.btn-black {
+  display: inline-block;
+  text-align: center;
+  min-width: 179px;
+  line-height: 50px;
+  border: 1px solid #161513;
+}
+.btn-white {
+  display: inline-block;
+  text-align: center;
+  min-width: 144px;
+  line-height: 50px;
+  position: absolute;
+  border: 1px solid #161513;
+}
+.btn-black:hover {
+  background-color: var(--color-orange);
+  color: var(--color-black);
+  border-color: var(--color-black);
+}
+.btn-white:hover {
+  background-color: var(--color-darkbeige);
+  color: var(--color-orange);
+  border-color: var(--color-orange);
+}
