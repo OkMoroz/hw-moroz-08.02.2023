@@ -162,7 +162,7 @@
 }
 .third-section .text-about {
   line-height: 32px;
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 .third-section .name {
   font-size: 12px;
@@ -175,3 +175,26 @@
   line-height: 32px;
   letter-spacing: 0.48px;
 }
+/* --------------FOURTH SECTION----------*/
+.fourth-section .container {
+  border: 2px solid #332f29;
+}
+.fourth-section .card {
+  width: 352px;
+  line-height: 50px;
+  text-align: center;
+}
+.fourth-section .amount {
+  font-size: 56px;
+  line-height: 64px;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+.fourth-section .amount-text {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.28px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+/* ------------AWARDS SECTION---------- */
