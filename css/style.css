@@ -102,3 +102,29 @@
   color: var(--color-orange);
   border-color: var(--color-orange);
 }
+/*-------------SECOND SECTION------------*/
+.second-section .container .text {
+  min-width: 3000px;
+  min-height: 64px;
+  display: flex;
+  line-height: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+.rotate {
+  transform: rotate(-4.93deg);
+}
+ .marquee{
+  width: 100%; 
+  animation: marquee 40s linear infinite; 
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* --------------THIRD SECTION----------- */
+ 
