@@ -114,9 +114,9 @@
 .rotate {
   transform: rotate(-4.93deg);
 }
- .marquee{
-  width: 100%; 
-  animation: marquee 40s linear infinite; 
+.marquee {
+  width: 100%;
+  animation: marquee 40s linear infinite;
 }
 @keyframes marquee {
   0% {
@@ -127,4 +127,51 @@
   }
 }
 /* --------------THIRD SECTION----------- */
- 
+.third-section .container {
+  display: flex;
+  margin-top: 124px;
+  margin-bottom: 121px;
+}
+.third-section .text-wrap {
+  max-width: 408px;
+}
+.third-section .decoration-line {
+  display: flex;
+  gap: 8px;
+  font-size: 23px;
+  line-height: 1.4;
+  letter-spacing: 0.48px;
+  margin-bottom: 21px;
+}
+.third-section .title {
+  max-width: 351px;
+  font-size: 56px;
+  line-height: 1.14;
+  letter-spacing: 0.56px;
+  margin-bottom: 59px;
+  margin-right: 57px;
+}
+.third-section .about {
+  max-width: 612px;
+}
+.third-section .title-about {
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  margin-bottom: 36px;
+}
+.third-section .text-about {
+  line-height: 32px;
+    margin-bottom: 28px;
+}
+.third-section .name {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-orange);
+  margin-bottom: 9px;
+}
+.third-section .description {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+}
