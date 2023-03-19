@@ -103,20 +103,18 @@
   border-color: var(--color-orange);
 }
 /*-------------SECOND SECTION------------*/
-.second-section .container .text {
-  min-width: 3000px;
-  min-height: 64px;
-  display: flex;
+.second-section .line {
+  min-width: 5000px;
+  padding: 1rem 0;
   line-height: 32px;
-  justify-content: space-between;
-  align-items: center;
+  overflow: hidden;
 }
 .rotate {
   transform: rotate(-4.93deg);
 }
 .marquee {
   width: 100%;
-  animation: marquee 40s linear infinite;
+  animation: marquee 50s linear infinite;
 }
 @keyframes marquee {
   0% {
@@ -126,6 +124,7 @@
     transform: translateX(-100%);
   }
 }
+
 /* --------------THIRD SECTION----------- */
 .third-section .container {
   display: flex;
@@ -145,6 +144,7 @@
 }
 .third-section .title {
   max-width: 351px;
+  font-weight: 400;
   font-size: 56px;
   line-height: 1.14;
   letter-spacing: 0.56px;
@@ -176,7 +176,7 @@
   letter-spacing: 0.48px;
 }
 /* --------------FOURTH SECTION----------*/
-.fourth-section .container {
+.fourth-section .cards {
   border: 2px solid #332f29;
 }
 .fourth-section .card {
@@ -186,6 +186,7 @@
 }
 .fourth-section .amount {
   font-size: 56px;
+  font-weight: 400;
   line-height: 64px;
   margin-top: 21px;
   margin-bottom: 11px;
@@ -198,3 +199,54 @@
   text-transform: uppercase;
 }
 /* ------------AWARDS SECTION---------- */
+.awards-section .container {
+  margin-top: 121px;
+  margin-bottom: 121px;
+  text-align: center;
+}
+.awards-section .logo {
+  margin-bottom: 22px;
+}
+.awards-section .title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1.44px;
+  margin-bottom: 9px;
+}
+.awards-section .text {
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+}
+.awards-section .cards {
+  max-width: 100%;
+  flex-direction: column;
+}
+.awards-section .card {
+  border: 2px solid #161513;
+  padding: 38px 34px;
+  margin-bottom: 24px;
+}
+.awards-section .num {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: var(--color-orange);
+  color: #fff;
+  margin-right: 24px;
+}
+.awards-section .description-title {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+}
+.awards-section .right-part {
+  font-size: 16px;
+  line-height: 32px;
+}
+.year {
+  margin-left: 16px;
+}
