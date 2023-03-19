@@ -20,8 +20,8 @@
 .gap-16 {
   gap: 16px;
 }
-.gap-32{
-  gap:32px;
+.gap-32 {
+  gap: 32px;
 }
 .gap-44 {
   gap: 44px;
@@ -181,6 +181,7 @@
 /* --------------FOURTH SECTION----------*/
 .fourth-section .cards {
   border: 2px solid #332f29;
+  margin-bottom: 122px;
 }
 .fourth-section .card {
   width: 352px;
@@ -203,7 +204,6 @@
 }
 /* ------------AWARDS SECTION---------- */
 .awards-section .container {
-  margin-top: 121px;
   margin-bottom: 121px;
   text-align: center;
 }
@@ -255,7 +255,6 @@
 }
 /* --------PORTFOLIO SECTION---------- */
 .portfolio-section .container {
-  margin-top: 121px;
   margin-bottom: 121px;
   text-align: center;
 }
@@ -288,7 +287,7 @@
 .portfolio-section .row:nth-child(even) {
   flex-direction: row-reverse;
 }
-.portfolio-section .text-wrap{
+.portfolio-section .text-wrap {
   min-width: 556px;
 }
 .portfolio-section .color-text {
@@ -298,8 +297,7 @@
   letter-spacing: 1.44px;
   text-transform: uppercase;
   background: var(--color-orange);
-  color:#FFFFFF;
-;
+  color: #ffffff;
   padding: 3px 12px 5px 12px;
   margin-bottom: 30px;
 }
@@ -317,4 +315,56 @@
 .link:hover {
   background-color: var(--color-darkbeige);
   color: var(--color-orange);
+}
+/* ----------------SERVICES SECTION------------ */
+.services-section .container {
+  margin-bottom: 161px;
+  text-align: center;
+}
+.services-section .logo {
+  margin-bottom: 22px;
+}
+.services-section .title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1.44px;
+  margin-bottom: 9px;
+}
+.services-section .text {
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+}
+.services-section .cards {
+  max-width: 100%;
+  flex-direction: column;
+}
+.cards-box{
+  flex-wrap: wrap;
+}
+.services-section .card {
+  max-width: 510px;
+  border: 2px solid #161513;
+  padding: 34px 49px 30px 34px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.services-section .description-title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  margin-bottom: 28px;
+}
+.cards-box :nth-child(3),
+.cards-box :nth-child(4) {
+  margin-bottom: 0;
+}
+.services-section .description{
+  line-height: 32px;
+}
+.services-section .card +.card{
+  gap: 40px
 }
