@@ -26,6 +26,22 @@
 .gap-44 {
   gap: 44px;
 }
+.logo {
+  margin-bottom: 22px;
+}
+.title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1.44px;
+  margin-bottom: 9px;
+}
+.text {
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
 
 /* --------------HEADER---------------- */
 .header .container {
@@ -207,22 +223,6 @@
   margin-bottom: 121px;
   text-align: center;
 }
-.awards-section .logo {
-  margin-bottom: 22px;
-}
-.awards-section .title {
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 56px;
-  letter-spacing: 1.44px;
-  margin-bottom: 9px;
-}
-.awards-section .text {
-  line-height: 32px;
-  letter-spacing: 1.44px;
-  text-transform: uppercase;
-  margin-bottom: 61px;
-}
 .awards-section .cards {
   max-width: 100%;
   flex-direction: column;
@@ -257,22 +257,6 @@
 .portfolio-section .container {
   margin-bottom: 121px;
   text-align: center;
-}
-.portfolio-section .logo {
-  margin-bottom: 22px;
-}
-.portfolio-section .title {
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 56px;
-  letter-spacing: 1.44px;
-  margin-bottom: 9px;
-}
-.portfolio-section .text {
-  line-height: 32px;
-  letter-spacing: 1.44px;
-  text-transform: uppercase;
-  margin-bottom: 61px;
 }
 .portfolio-section .row {
   text-align: left;
@@ -321,34 +305,19 @@
   margin-bottom: 161px;
   text-align: center;
 }
-.services-section .logo {
-  margin-bottom: 22px;
-}
-.services-section .title {
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 56px;
-  letter-spacing: 1.44px;
-  margin-bottom: 9px;
-}
-.services-section .text {
-  line-height: 32px;
-  letter-spacing: 1.44px;
-  text-transform: uppercase;
-  margin-bottom: 61px;
-}
+
 .services-section .cards {
   max-width: 100%;
   flex-direction: column;
 }
-.cards-box{
+.services-section .cards-box {
   flex-wrap: wrap;
+  gap: 40px;
 }
 .services-section .card {
   max-width: 510px;
   border: 2px solid #161513;
   padding: 34px 49px 30px 34px;
-  margin-bottom: 40px;
   text-align: left;
 }
 .services-section .description-title {
@@ -358,13 +327,23 @@
   letter-spacing: 0.64px;
   margin-bottom: 28px;
 }
-.cards-box :nth-child(3),
-.cards-box :nth-child(4) {
-  margin-bottom: 0;
-}
-.services-section .description{
+.services-section .description {
   line-height: 32px;
 }
-.services-section .card +.card{
-  gap: 40px
+/* ------------HAPPY CUSTOMER-------------- */
+.customer-section .container {
+  margin-bottom: 123px;
+  text-align: center;
 }
+.customer-section .title {
+  margin-bottom: 62px;
+}
+.cards-box {
+  flex-wrap: wrap;
+}
+.customer-section .card {
+  width: 241px;
+  padding: 37px;
+  border: 2px solid #161513;
+}
+/* --------------ARTICLES--------------- */
