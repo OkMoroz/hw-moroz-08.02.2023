@@ -20,6 +20,9 @@
 .gap-16 {
   gap: 16px;
 }
+.gap-24{
+  gap: 24px;
+}
 .gap-32 {
   gap: 32px;
 }
@@ -128,6 +131,9 @@
   line-height: 32px;
   overflow: hidden;
 }
+.second-section .line-wrap{
+  overflow: hidden;
+}
 .rotate {
   transform: rotate(-4.93deg);
 }
@@ -223,18 +229,22 @@
   margin-bottom: 121px;
   text-align: center;
 }
+.awards-section .card-box :last-child{
+margin-bottom: 0;
+}
 .awards-section .cards {
   max-width: 100%;
   flex-direction: column;
+  margin-bottom: 24px;
 }
 .awards-section .card {
   border: 2px solid #161513;
-  padding: 38px 34px;
-  margin-bottom: 24px;
+  padding: 36px 34px;
 }
 .awards-section .num {
   display: inline-block;
-  width: 50px;
+  width: 48px;
+  height: 48px;
   text-align: center;
   line-height: 50px;
   background: var(--color-orange);
@@ -245,6 +255,9 @@
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.48px;
+}
+.awards-section .description {
+  line-height: 32px;
 }
 .awards-section .right-part {
   font-size: 16px;
@@ -349,9 +362,15 @@
 /* --------------ARTICLES--------------- */
 .articles-section .container {
   text-align: center;
+  margin-bottom: 95px;
 }
 .articles-section .text {
   margin-bottom: 95px;
+}
+.articles-section .card-box{
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 100px; 
 }
 .articles-section .cards {
   max-width: 100%;
@@ -360,7 +379,7 @@
 .articles-section .card {
   border: 2px solid #161513;
   padding: 1px 53px 1px 34px;
-  margin-bottom: 100px;
+  
 }
 .articles-section .date {
   font-size: 16px;
@@ -441,10 +460,10 @@ input[type="email"] {
   gap: 24px;
 }
 /* --------------FOOTER---------- */
-.footer .container .socials{
+.footer .container .socials {
   padding-bottom: 26px;
 }
-.footer .line{
+.footer .line {
   padding-top: 70px;
   padding-bottom: 56px;
 }
@@ -462,7 +481,7 @@ input[type="email"] {
   transition: all 0.2s linear;
 }
 .social-link:hover svg circle {
-  stroke: #161513
+  stroke: #161513;
 }
 .social-link:hover svg path {
   fill: #e94d35;
@@ -473,5 +492,6 @@ input[type="email"] {
   top: 70%;
   right: 38%;
   bottom: 30%;
-   left:62%;
+  left: 62%;
 }
+
