@@ -347,3 +347,40 @@
   border: 2px solid #161513;
 }
 /* --------------ARTICLES--------------- */
+.articles-section .container {
+  margin-bottom: 94px;
+  text-align: center;
+}
+.articles-section .text {
+  margin-bottom: 95px;
+}
+.articles-section .cards {
+  max-width: 100%;
+  flex-direction: column;
+}
+.articles-section .card {
+  border: 2px solid #161513;
+  padding: 1px 53px 1px 34px;
+  margin-bottom: 100px;
+}
+.articles-section .date {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #e94d35;
+  text-align: left;
+}
+.articles-section .description {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  text-align: left;
+}
+.articles-section .right-part {
+  width: 457px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+/* ---------------BROWSE ARTICLES----------- */
