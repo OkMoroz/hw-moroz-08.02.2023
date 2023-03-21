@@ -20,7 +20,7 @@
 .gap-16 {
   gap: 16px;
 }
-.gap-24{
+.gap-24 {
   gap: 24px;
 }
 .gap-32 {
@@ -78,7 +78,7 @@
 /* -------------FIRST SECTION ---------------*/
 .first-section .container {
   display: flex;
-  min-width: 1316px;
+  max-width: 1316px;
   padding-top: 105px;
   padding-bottom: 105px;
 }
@@ -105,6 +105,7 @@
   min-width: 179px;
   line-height: 50px;
   border: 1px solid #161513;
+  transition: background-color 0.5s ease-in-out;
 }
 .btn-white {
   display: inline-block;
@@ -113,6 +114,7 @@
   line-height: 50px;
   position: absolute;
   border: 1px solid #161513;
+  transition: background-color 0.5s ease-in-out;
 }
 .btn-black:hover {
   background-color: var(--color-orange);
@@ -125,22 +127,28 @@
   border-color: var(--color-orange);
 }
 /*-------------SECOND SECTION------------*/
+.second-section {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
 .second-section .line {
-  min-width: 5000px;
   padding: 1rem 0;
   line-height: 32px;
-  overflow: hidden;
-}
-.second-section .line-wrap{
-  overflow: hidden;
-}
-.rotate {
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-right: -1rem;
   transform: rotate(-4.93deg);
 }
-.marquee {
-  width: 100%;
-  animation: marquee 50s linear infinite;
+.second-section .line-element {
+  padding-left: 25px;
 }
+
+/* .marquee {
+  width: 100%;
+  animation: marquee 95s linear infinite;
+} 
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -148,7 +156,7 @@
   100% {
     transform: translateX(-100%);
   }
-}
+}  */
 
 /* --------------THIRD SECTION----------- */
 .third-section .container {
@@ -206,7 +214,7 @@
   margin-bottom: 122px;
 }
 .fourth-section .card {
-  width: 352px;
+  flex: 1;
   line-height: 50px;
   text-align: center;
 }
@@ -229,8 +237,8 @@
   margin-bottom: 121px;
   text-align: center;
 }
-.awards-section .card-box :last-child{
-margin-bottom: 0;
+.awards-section .card-box :last-child {
+  margin-bottom: 0;
 }
 .awards-section .cards {
   max-width: 100%;
@@ -360,6 +368,9 @@ margin-bottom: 0;
   border: 2px solid #161513;
 }
 /* --------------ARTICLES--------------- */
+.articles-section {
+  position: relative;
+}
 .articles-section .container {
   text-align: center;
   margin-bottom: 95px;
@@ -367,10 +378,11 @@ margin-bottom: 0;
 .articles-section .text {
   margin-bottom: 95px;
 }
-.articles-section .card-box{
+.articles-section .card-box {
   justify-content: space-around;
   flex-direction: column;
-  gap: 100px; 
+  gap: 100px;
+  margin-bottom: 94px;
 }
 .articles-section .cards {
   max-width: 100%;
@@ -379,7 +391,6 @@ margin-bottom: 0;
 .articles-section .card {
   border: 2px solid #161513;
   padding: 1px 53px 1px 34px;
-  
 }
 .articles-section .date {
   font-size: 16px;
@@ -401,19 +412,23 @@ margin-bottom: 0;
   line-height: 24px;
   text-align: left;
 }
-/* ---------------BROWSE ARTICLES----------- */
-.browse-articles .container {
-  margin-bottom: 136px;
-}
-.browse-articles .line {
+.btn-long {
+  width: 100%;
   text-align: center;
-  min-width: 179px;
-  line-height: 50px;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   padding-top: 12px;
   padding-bottom: 14px;
+}
+.btn-long:hover {
+  background-color: var(--color-orange);
+  color: var(--color-black);
+}
+#my-element {
+  position: absolute;
+  right: 0;
+  bottom: 220px;
 }
 /* ---------------SUBSCRIBE---------------- */
 .subscribe .wrap {
@@ -486,12 +501,3 @@ input[type="email"] {
 .social-link:hover svg path {
   fill: #e94d35;
 }
-/* -----------------MY ELEMENT-------------------- */
-#my-element {
-  position: fixed;
-  top: 70%;
-  right: 38%;
-  bottom: 30%;
-  left: 62%;
-}
-
