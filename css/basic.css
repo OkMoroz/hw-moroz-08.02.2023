@@ -8,9 +8,10 @@
     #f0145a 0.84%,
     #ef8080 99.96%
   );
-  --color-red: #f0145a;
+  --color-red: #F0145A;
   --color-grey: #b3b3ba;
   --color-blue: #24A3FF;
+  --color-white: #FFFFFF;
 }
 
 * {
