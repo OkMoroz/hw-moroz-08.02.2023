@@ -1,0 +1,66 @@
+.header .container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-areas:
+    "A B"
+    "A C";
+}
+.header-logo {
+  grid-area: A;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 6px;
+}
+.page-name {
+  font-size: 36px;
+  line-height: 44px;
+}
+.right-side {
+  padding-top: 50px;
+}
+.header-contacts {
+  grid-area: B;
+  margin-bottom: 18px;
+}
+.header-link {
+  grid-area: C;
+}
+.dot {
+  display: inline-block;
+  background-color: #e6e6f0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+.header-contacts .nav-leng {
+  font-weight: 700;
+  color: var(--color-grey);
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.header-contacts .adress {
+  line-height: 20px;
+  text-align: right;
+  color: var(--color-grey);
+}
+.header-contacts .tel {
+  font-weight: 700;
+  line-height: 20px;
+  text-align: right;
+  color: var(--color-grey);
+}
+.header-contacts .fb-icon{
+  vertical-align: middle;
+}
+.header-link{
+  font-weight: 700;
+  line-height: 20px;
+  text-align: right;
+  color: var(--color-blue);  
+}
+.header-link .nav-link{
+    margin-right: 15px;
+}
