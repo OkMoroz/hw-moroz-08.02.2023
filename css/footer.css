@@ -1,0 +1,58 @@
+.footer {
+  background-color: var(--bg-grey);
+}
+.footer .container {
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer .dot {
+  display: inline-block;
+  background-color: #b3b3ba;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.footer .adress {
+  margin-bottom: 21px;
+}
+.footer .fb-icon-blue {
+  vertical-align: middle;
+}
+.fb-icon-blue:hover svg path {
+  fill: var(--color-red);
+}
+.fb-icon-blue svg path {
+  transition: all 0.2s linear;
+}
+.fb-icon-blue :hover svg circle {
+  stroke: var(--color-red);
+}
+.map {
+  color: var(--color-blue);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.map:hover {
+  color: var(--color-red);
+  transition: all 0.2s linear;
+}
+.footer .tel {
+  font-weight: 700;
+  text-align: right;
+  color: #46466e;
+}
+.footer .email {
+  color: var(--color-blue);
+  font-weight: 700;
+}
+.email:hover {
+  color: var(--color-red);
+  transition: all 0.2s linear;
+}
+.copy-rights {
+  color: #b3b3ba;
+}

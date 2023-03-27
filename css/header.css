@@ -14,7 +14,6 @@
 }
 .page-name {
   font-size: 36px;
-  line-height: 44px;
 }
 .right-side {
   padding-top: 50px;
@@ -26,7 +25,7 @@
 .header-link {
   grid-area: C;
 }
-.dot {
+.header .dot {
   display: inline-block;
   background-color: #e6e6f0;
   width: 6px;
@@ -54,13 +53,11 @@
   border-radius: 8px;
 }
 .header-contacts .adress {
-  line-height: 20px;
   text-align: right;
   color: var(--color-grey);
 }
 .header-contacts .tel {
   font-weight: 700;
-  line-height: 20px;
   text-align: right;
   color: var(--color-grey);
 }
@@ -73,12 +70,11 @@
 .fb-icon svg path {
   transition: all 0.2s linear;
 }
-.social-link:hover svg circle {
+.fb-icon :hover svg circle {
   stroke: var(--color-red);
 }
 .header-link {
   font-weight: 700;
-  line-height: 20px;
   text-align: right;
   color: var(--color-blue);
 }

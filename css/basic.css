@@ -1,17 +1,13 @@
 :root {
   --container-width: 1600px;
-  --basic-space: 1rem;
+  --basic-space: 3.75rem;
   --bg-white: #ffffff;
+  --bg-grey: #f5f5fa;
   --text-color: #323264;
-  --color-linear-gradient: linear-gradient(
-    90.13deg,
-    #f0145a 0.84%,
-    #ef8080 99.96%
-  );
-  --color-red: #F0145A;
+  --color-red: #f0145a;
   --color-grey: #b3b3ba;
-  --color-blue: #24A3FF;
-  --color-white: #FFFFFF;
+  --color-blue: #24a3ff;
+  --color-white: #ffffff;
 }
 
 * {
@@ -41,6 +37,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.25;
   color: var(--text-color);
 }
 

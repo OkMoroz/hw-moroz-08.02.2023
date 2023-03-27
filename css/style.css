@@ -1,10 +1,77 @@
 @import url("./basic.css");
 @import url("./header.css");
+@import url("./footer.css");
 
 .bg-black {
   background-color: var(--color-white);
   color: var(--color-black);
 }
-.gap-4{
+.gap-4 {
   gap: 4px;
 }
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+/* ------------------TEAM PAGE------------------ */
+.team-section {
+  margin-bottom: 60px;
+}
+.container .main-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.team-section .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+.team-section .item-img {
+  border-radius: 12px;
+  margin-bottom: 15px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.team-section .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-name {
+  font-weight: 700;
+}
+.card:hover .item-name {
+  color: var(--color-red);
+  transition: all 0.2s linear;
+}
+.item-work {
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+  margin-top: 5px;
+}
+.item-svg {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color: #ededf7;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover svg path {
+  stroke: var(--color-red);
+  transition: all 0.2s linear;
+}
+/* --------------------------------------- */
