@@ -1,5 +1,9 @@
 .header .line {
   background-color: var(--bg-grey-light);
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: var(--basic-space);
   padding-right: var(--basic-space);
   height: 45px;
