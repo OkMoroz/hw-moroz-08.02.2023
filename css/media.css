@@ -98,8 +98,8 @@
 
 @media (min-width: 992px) {
   :root {
-  --big-container-width: 664px;
-  --small-container-width: 904px;
+  --big-container-width: 904px;
+  --small-container-width: 664px;
   }
   .header .big-container {
     grid-template-rows: repeat(2, 1fr);
