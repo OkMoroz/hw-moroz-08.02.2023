@@ -12,7 +12,9 @@
 
 @media (min-width: 760px) {
   :root {
-    --basic-space: 3.75rem;
+  --big-container-width: 648px;
+  --small-container-width: 648px;
+  --basic-space: 3.75rem;
   }
   .header .line {
     background-color: transparent;
@@ -75,8 +77,6 @@
     line-height: 46px;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 648px;
-    margin: auto;
   }
   .team-section .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -97,6 +97,10 @@
 }
 
 @media (min-width: 992px) {
+  :root {
+  --big-container-width: 664px;
+  --small-container-width: 904px;
+  }
   .header .big-container {
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-between;
@@ -128,12 +132,13 @@
   }
 }
 @media (min-width: 1200px) {
-  .small-container .main-title {
-    width: 1080px;
+  :root {
+  --big-container-width: 1320px;
+  --small-container-width: 1080px;}
   }
-}
 @media (min-width: 1700px) {
-  .small-container .main-title {
-    width: 1360px;
+ :root {
+  --big-container-width: 1600px;
+  --small-container-width: 1360px;
   }
 }

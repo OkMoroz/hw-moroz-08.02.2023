@@ -1,6 +1,6 @@
 :root {
-  --big-container-width: 1600px;
-  --small-container-width: 1360px;
+  --big-container-width: 375px;
+  --small-container-width: 315px;
   --basic-space: 1.875rem;
   --bg-white: #ffffff;
   --bg-grey-light: #f5f5fa;
