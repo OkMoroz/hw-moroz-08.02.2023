@@ -13,22 +13,37 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <a href="../index.html" class="header-logo gap-4">
-                <img src="../images/headerfooter/logo.svg" alt="Logo">
-                <img src="../images/headerfooter/slash.svg" alt="Slash">
-                <span class="page-name">contact</span>
-            </a>
-            <div class="right-side">
-                <div class="header-contacts">
-                    <a class="nav-lang" href="#">УК</a>
-                    <a class="nav-lang" href="#">РУ</a>
-                    <a class="nav-lang active-lang" href="#">EN</a>
+        <div class="big-container">
+            <div class="line ry-rem"></div>
+            <div class="wrap grid">
+                <div class="item-1 ">
+                    <a href="../index.html" class="header-logo gap-4">
+                        <img src="../images/headerfooter/logo.svg" alt="Logo">
+                        <img src="../images/headerfooter/slash.svg" alt="Slash" class="slash">
+                        <span class="page-name">contact</span>
+                    </a>
+                </div>
+                <div class="header-contacts item-2">
+                    <form class="flex">
+                        <label>
+                            <input class="input" type="radio" name="lang" value="ua" id="ua">
+                            <span class=".nav-lang">УК</span>
+                        </label>
+                        <label>
+                            <input class="input" type="radio" name="lang" value="ru" id="ru">
+                            <span>РУ</span>
+                        </label>
+                        <label>
+                            <input class="input" type="radio" name="lang" value="en" id="en">
+                            <span>EN</span>
+                        </label>
+                    </form>
                     <span class="dot"></span>
-                    <a href="https://goo.gl/maps/AkM5Zftc3rSYvw7g8" target="_blank" class="adress">Kyiv, Mechnikova str,
+                    <a href="https://goo.gl/maps/AkM5Zftc3rSYvw7g8" target="blank" class="adress">Kyiv, Mechnikova str,
                         14/1</a>
                     <span class="dot"></span>
-                    <a href="tel:+380800211927" target="_blank" class="tel">0800 211 927</a>
+                    <a href="tel:+380800211927" target="_blank" class="tel flex"><span>0800</span><span>
+                        </span><span>211 </span><span>927</span></a>
                     <span class="dot"></span>
                     <a href="https://www.facebook.com/" target="_blank" class="fb-icon active">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,16 +51,24 @@
                                 d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
                                 fill="#B3B3BA" />
                         </svg>
-
                     </a>
                 </div>
-                <nav class="header-link">
-                    <a href="../index.html" class="nav-link">about us</a>
-                    <a href="../pages/services.html" class="nav-link">services</a>
-                    <a href="../pages/team.html" class="nav-link">team</a>
-                    <a href="../pages/publications.html" class="nav-link">publications</a>
-                    <a href="../pages/contact.html" class="nav-link active-page">contact</a>
-                </nav>
+                <div class="burger-menu item-3 flex">
+                    <input type="checkbox" class="hide-check">
+                    <p class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </p>
+                    <nav class="header-link flex">
+                        <a href="../index.html" class="nav-link">about us</a>
+                        <a href="../pages/services.html" class="nav-link">services</a>
+                        <a href="../pages/team.html" class="nav-link">team</a>
+                        <a href="../pages/publications.html" class="nav-link">publications</a>
+                        <a href="../pages/contact.html" class="nav-link active-page">contact</a>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -57,25 +80,27 @@
                 <img src="." alt="image" width="300">
             </div>
         <</section>  -->
-</main>
+    </main>
     <footer class="footer">
-        <div class="container flex ">
+        <div class="big-container flex">
             <div class="contacts">
-                <div class="adress">Kyiv, Mechnikova str, 14/1
+                <div class="adress flex">Kyiv, Mechnikova str, 14/1
                     <span class="dot"></span>
                     <a href="https://goo.gl/maps/AkM5Zftc3rSYvw7g8" target="_blank" class="map">On map</a>
                 </div>
-                <a href="https://www.facebook.com/" target="_blank" class="fb-icon-blue active">
-                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
-                            fill="#24A3FF" />
-                    </svg>
-                </a>
-                <span class="dot"></span>
-                <a href="tel:+380800211927" target="_blank" class="tel">0800 211 927</a>
-                <span class="dot"></span>
-                <a href="mailto:contact@forstudy.space" target="_blank" class="email">contact@forstudy.space</a>
+                <div class="conect flex">
+                    <a href="https://www.facebook.com/" target="_blank" class="fb-icon-blue active">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                fill="#24A3FF" />
+                        </svg>
+                    </a>
+                    <span class="dot"></span>
+                    <a href="tel:+380800211927" target="_blank" class="tel">0800 211 927</a>
+                    <span class="dot"></span>
+                    <a href="mailto:contact@forstudy.space" target="_blank" class="email">contact@forstudy.space</a>
+                </div>
             </div>
             <p class="copy-rights">&copy;2023 HLEGAL Law company, LLC</p>
         </div>

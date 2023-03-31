@@ -1,7 +1,9 @@
 :root {
-  --container-width: 1600px;
-  --basic-space: 3.75rem;
+  --big-container-width: 1600px;
+  --small-container-width: 1360px;
+  --basic-space: 1.875rem;
   --bg-white: #ffffff;
+  --bg-grey-light: #f5f5fa;
   --bg-grey: #f5f5fa;
   --text-color: #323264;
   --color-red: #f0145a;
@@ -16,6 +18,10 @@
   box-sizing: border-box;
 }
 
+.ry-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 a,
 a:hover {
   color: inherit;
@@ -24,13 +30,6 @@ a:hover {
 
 img {
   max-width: 100%;
-}
-
-button {
-  font: inherit;
-  background-color: transparent;
-  cursor: pointer;
-  transition: background-color 0.5s ease-in-out;
 }
 
 html {
@@ -48,8 +47,16 @@ body {
   background-color: var(--bg-white);
 }
 
-.container {
-  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+.big-container {
+  max-width: calc(var(--big-container-width) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+}
+
+.small-container {
+  max-width: calc(var(--small-container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--basic-space);
@@ -58,4 +65,8 @@ body {
 
 .hidden {
   display: none !important;
+}
+
+.transition {
+  transition: all 0.3s linear;
 }
