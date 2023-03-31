@@ -23,6 +23,10 @@
   justify-content: flex-end;
 }
 /* -----------------MAIN TITLE------------------ */
+.title-section {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
 .small-container .main-title {
   font-weight: 700;
   font-size: 30px;
@@ -31,8 +35,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 /* ------------------TEAM PAGE------------------ */
 .team-section {

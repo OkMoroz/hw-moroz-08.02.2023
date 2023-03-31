@@ -1,7 +1,7 @@
 .header .line {
   background-color: var(--bg-grey-light);
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -1.875rem;
+  margin-right: -1.875rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: var(--basic-space);
@@ -114,11 +114,10 @@
   color: var(--color-grey);
   align-items: center;
   text-align: right;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .header .dot {
-  visibility: hidden;
-  display: inline-block;
+  display: none;
   background-color: #e6e6f0;
   width: 6px;
   height: 6px;
@@ -145,14 +144,14 @@
   border-radius: 8px;
 }
 .header-contacts .adress {
-  visibility: hidden;
+  display: none;
 }
 .header-contacts .tel {
   font-weight: 700;
   font-size: 16px;
 }
 .header-contacts .fb-icon {
-  visibility: hidden;
+  display: none;
   vertical-align: middle;
 }
 .fb-icon:hover svg path {

@@ -12,9 +12,7 @@
 
 @media (min-width: 760px) {
   :root {
-  --big-container-width: 648px;
-  --small-container-width: 648px;
-  --basic-space: 3.75rem;
+    --basic-space: 3.75rem;
   }
   .header .line {
     background-color: transparent;
@@ -35,19 +33,21 @@
     align-items: center;
     text-align: start;
     margin-top: 0;
+
+    justify-content: flex-start;
   }
   .header .dot {
-    visibility: visible;
+    display: inline-block;
   }
   .input:hover ~ span {
     background-color: var(--bg-grey-light);
     border-radius: 8px;
   }
   .header-contacts .adress {
-    visibility: visible;
+    display: inline-block;
   }
   .header-contacts .fb-icon {
-    visibility: visible;
+    display: inline-block;
   }
   .item-3 {
     grid-area: 3 / 1 / 3 / 1;
@@ -71,12 +71,15 @@
     padding-bottom: 7px;
     min-width: 0;
   }
+  .title-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .small-container .main-title {
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin: auto;
   }
   .team-section .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -97,10 +100,6 @@
 }
 
 @media (min-width: 992px) {
-  :root {
-  --big-container-width: 904px;
-  --small-container-width: 664px;
-  }
   .header .big-container {
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-between;
@@ -120,6 +119,9 @@
   .header-contacts {
     justify-content: flex-end;
   }
+  .small-container .main-title {
+    width: 1080px;
+  }
   .team-section .cards {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -132,13 +134,12 @@
   }
 }
 @media (min-width: 1200px) {
-  :root {
-  --big-container-width: 1320px;
-  --small-container-width: 1080px;}
+  .small-container .main-title {
+    width: 1080px;
   }
+}
 @media (min-width: 1700px) {
- :root {
-  --big-container-width: 1600px;
-  --small-container-width: 1360px;
+  .small-container .main-title {
+    width: 1360px;
   }
 }
