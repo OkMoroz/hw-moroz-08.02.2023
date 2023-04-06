@@ -28,6 +28,12 @@
   position: relative;
   align-items: center;
   justify-content: center;
+  margin-right: -15px;
+}
+.burger-menu:hover {
+  background: #e6e6f0;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .header-link {
   font-weight: 700;
@@ -50,52 +56,54 @@
 }
 .burger {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   z-index: 3;
 }
 .burger span {
   display: block;
-  width: 26px;
+  width: 28px;
   height: 2px;
   background-color: var(--text-color);
   position: absolute;
-  left: 2px;
+  left: 3px;
   transition: all 0.3s linear;
   opacity: 1;
 }
 .hide-check {
   position: absolute;
   top: 0;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   z-index: 5;
   opacity: 0;
 }
 .burger span:first-child {
-  top: 4px;
+  top: 6px;
 }
 .burger span:nth-child(2),
 .burger span:nth-child(3) {
   top: 14px;
 }
 .burger span:last-child {
-  top: 24px;
+  top: 22px;
 }
 .hide-check:checked + .burger span:first-child {
-  top: -4px;
+  top: -6px;
   opacity: 0;
 }
 .hide-check:checked + .burger span:nth-child(2) {
   transform: rotate(45deg);
   background-color: #ec6f5d;
+  width: 19px;
 }
 .hide-check:checked + .burger span:nth-child(3) {
   transform: rotate(-45deg);
   background-color: #ec6f5d;
+  width: 19px;
 }
 .hide-check:checked + .burger span:last-child {
-  top: 34px;
+  top: 32px;
   opacity: 0;
 }
 .hide-check:checked ~ .header-link {
@@ -104,6 +112,7 @@
 .header-logo {
   display: grid;
   grid-template-columns: 69px 12px auto;
+  margin-left: -15px;
 }
 .page-name {
   font-size: 20px;

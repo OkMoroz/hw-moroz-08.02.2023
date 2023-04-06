@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: 130px 21px auto;
     margin-bottom: 30px;
+    margin-left: 0px;
   }
   .page-name {
     font-size: 36px;
@@ -33,7 +34,6 @@
     align-items: center;
     text-align: start;
     margin-top: 0;
-
     justify-content: flex-start;
   }
   .header .dot {
@@ -61,6 +61,8 @@
     position: static;
     transition: none;
     flex-direction: row;
+    font-size: 16px;
+    line-height: 1.25;
     padding: 0;
     gap: 0;
   }
@@ -70,6 +72,9 @@
     padding-top: 7px;
     padding-bottom: 7px;
     min-width: 0;
+  }
+  .header-link .nav-link:first-child {
+    margin-left: 0;
   }
   .title-section {
     padding-top: 60px;
@@ -87,6 +92,15 @@
   }
   .team-section .item-img {
     height: 400px;
+  }
+  .section-contact .wrap {
+    gap: 60px;
+  }
+  .section-contact .contacts {
+    padding-top: 60px;
+  }
+  .section-contact .client-form {
+    margin-bottom: 60px;
   }
   .footer .dot {
     visibility: visible;
@@ -119,11 +133,21 @@
   .header-contacts {
     justify-content: flex-end;
   }
+  .header-link {
+    justify-content: end;
+  }
   .small-container .main-title {
     width: 1080px;
   }
   .team-section .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .section-contact .wrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  .section-contact .client-form {
+    margin-top: 60px;
   }
   .footer .big-container {
     flex-direction: row;
