@@ -135,6 +135,7 @@
   }
   .header-link {
     justify-content: end;
+     margin-right: 15px;
   }
   .small-container .main-title {
     width: 1080px;
