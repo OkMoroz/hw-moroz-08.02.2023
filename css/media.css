@@ -71,6 +71,11 @@
     padding: 0;
     gap: 0;
   }
+  .burger-menu:hover {
+    background-color: var(--bg-white);
+    border-radius: 0;
+    cursor: pointer;
+  }
   .header-link .nav-link {
     background: transparent;
     border-radius: 0;
