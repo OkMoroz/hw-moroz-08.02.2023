@@ -1,17 +1,10 @@
-.header .line {
-  background-color: var(--bg-grey-light);
-  margin-left: -1.875rem;
-  margin-right: -1.875rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-  height: 45px;
+.header .big-container {
+  margin-right: 0px;
+  margin-left: -15px;
 }
 .header .wrap {
   grid-template-rows: repeat(2, 1fr);
   justify-content: space-between;
-  padding-top: 10px;
   padding-bottom: 6px;
   align-items: center;
 }
@@ -28,7 +21,6 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-right: -15px;
 }
 .burger-menu:hover {
   background: #e6e6f0;
@@ -112,18 +104,23 @@
 .header-logo {
   display: grid;
   grid-template-columns: 69px 12px auto;
-  margin-left: -15px;
 }
 .page-name {
   font-size: 20px;
 }
 .header-contacts {
   display: flex;
-  margin-top: -100px;
   color: var(--color-grey);
   align-items: center;
   text-align: right;
   justify-content: space-between;
+  background-color: var(--bg-grey-light);
+  margin-left: -1.875rem;
+  margin-right: -1.875rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
 }
 .header .dot {
   display: none;
@@ -144,7 +141,6 @@
   text-align: start;
   letter-spacing: 1px;
   padding: 5px 7px;
-  margin-top: -100px;
   cursor: pointer;
 }
 .input:checked ~ span {
