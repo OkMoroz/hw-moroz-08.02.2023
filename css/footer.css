@@ -1,7 +1,11 @@
 .footer {
   background-color: var(--bg-grey);
 }
-.footer .big-container {
+.footer-grey-line{
+  border: solid #e6e6f0 1px;
+}
+
+.footer .big-container-main {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
@@ -15,7 +19,7 @@
 .footer .dot {
   visibility: hidden;
   display: inline-block;
-  background-color: #b3b3ba;
+  background-color: var(--color-grey);
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -61,6 +65,9 @@
 .email:hover {
   color: var(--color-red);
   transition: all 0.2s linear;
+}
+.footer .adress {
+  color: var(--text-color);
 }
 .copy-rights {
   color: #b3b3ba;

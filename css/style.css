@@ -120,13 +120,13 @@
   color: #f0145a;
   transition: all 0.2s linear;
 }
-.section-contact .grey-line {
+.grey-line {
   border: solid #e6e6f0;
   width: 100%;
   height: 4px;
 }
 .section-contact .client-form {
-  background: var(--bg-grey-light);
+  background: var(--bg-grey);
   border-radius: 12px;
   margin-bottom: 30px;
   justify-content: center;
@@ -184,7 +184,6 @@
 }
 #phone {
   padding: 15px;
-  gap: 10px;
   border: 1px solid #ffffff;
   border-radius: 8px;
   width: 100%;
@@ -205,7 +204,6 @@
 }
 #email {
   padding: 15px;
-  gap: 10px;
   border: 1px solid #ffffff;
   border-radius: 8px;
   width: 100%;
@@ -217,7 +215,7 @@
   line-height: 26px;
 }
 #email:focus {
-  border: 1px solid #24a3ff;
+  outline: 1px solid #24a3ff;
   color: #000000;
 }
 #email:invalid {
@@ -225,7 +223,7 @@
   color: #ff0000;
 }
 .answer {
-  color: var(--color-light-grey);
+  color: var(--color-grey);
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -255,3 +253,89 @@
 .btn-send:active {
   background: #006ccf;
 }
+/* ----------------PUBLICATIONS------------------- */
+.section-publications {
+  background-color: var(--bg-grey);
+}
+.swipe {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.swipe-btn {
+  align-items: center;
+  padding: 2px;
+  gap: 2px;
+  width: 233px;
+  height: 42px;
+  background-color: #e6e6f0;
+  border-radius: 12px;
+}
+.input-swipe {
+  display: none;
+  color: transparent;
+}
+.input-swipe ~ span {
+  padding: 8px 30px 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.input-swipe:checked ~ span {
+  background-color: var(--color-white);
+  gap: 10px;
+  border-radius: 10px;
+}
+.swipe-news:hover,
+.swipe-articles:hover,
+.swipe-news.swipe-articles:hover {
+  background-color: var(--bg-grey);
+  gap: 10px;
+  border-radius: 10px;
+}
+.section-publications .cards-news {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.section-publications .card-news {
+  background-color: var(--color-white);
+  border-radius: 8px;
+}
+.section-publications .img {
+  width: 100%;
+}
+.section-publications .wrap {
+  padding: 30px;
+  gap: 15px;
+  flex-direction: column;
+}
+.section-publications .topic {
+  font-weight: 700;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+.section-publications .date {
+  color: var(--color-grey);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.section-publications .wrapper {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+.section-publications .btn-send {
+  width: 211px;
+  margin: 0 auto;
+}
+.line {
+  margin-top: 60px;
+  width: 100%;
+}
+/* ----------------SERVICES------------------ */
+
+

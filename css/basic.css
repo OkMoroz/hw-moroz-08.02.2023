@@ -3,12 +3,17 @@
   --small-container-width: 1360px;
   --basic-space: 1.875rem;
   --bg-white: #ffffff;
-  --bg-grey-light: #f5f5fa;
+  --bg-blue: #323264;
   --bg-grey: #f5f5fa;
+  --bg-gradient: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
   --text-color: #323264;
   --color-red: #f0145a;
   --color-grey: #b3b3ba;
-  --color-light-grey: #b3b3ba;
   --color-blue: #24a3ff;
   --color-white: #ffffff;
 }
@@ -70,4 +75,13 @@ body {
 
 .transition {
   transition: all 0.3s linear;
+}
+
+.bg-gradient {
+  background: var(--bg-gradient);
+  color: var(--color-white);
+}
+.bg-blue{
+  background-color: var(--bg-blue);
+  color: var(--color-white);
 }
