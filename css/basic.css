@@ -1,5 +1,6 @@
 :root {
   --big-container-width: 1920px;
+  --middle-container-width: 1600px;
   --small-container-width: 1360px;
   --basic-space: 1.875rem;
   --bg-white: #ffffff;
@@ -60,7 +61,13 @@ body {
   padding-left: var(--basic-space);
   padding-right: var(--basic-space);
 }
-
+.middle-container {
+  max-width: calc(var(--middle-container-width) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+}
 .small-container {
   max-width: calc(var(--small-container-width) + var(--basic-space) * 2);
   margin-left: auto;
@@ -81,7 +88,49 @@ body {
   background: var(--bg-gradient);
   color: var(--color-white);
 }
-.bg-blue{
+.bg-blue {
   background-color: var(--bg-blue);
   color: var(--color-white);
+}
+.bg-grey {
+  background: var(--bg-grey);
+  color: var(--text-color);
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.bg-white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-end {
+  justify-content: flex-end;
 }
