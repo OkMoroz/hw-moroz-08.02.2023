@@ -14,6 +14,18 @@
   :root {
     --basic-space: 3.75rem;
   }
+  .gradient .header-link .nav-link {
+    color: var(--color-white);
+  }
+  .gradient .header-link .nav-link:hover {
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+    text-decoration: underline;
+  }
+  .gradient .header-link .active-page {
+  color: var(--color-red);
+  text-decoration: underline;
+}
   .header .big-container {
     margin-right: 15px;
     margin-left: 0px;
@@ -156,8 +168,8 @@
   .slide-item {
     width: 132px;
   }
-  .services-title {
-    margin-top: 60px;
+  .section-services .services-title {
+    margin-top: 280px;
     margin-bottom: 60px;
     font-size: 38px;
     line-height: 46px;
@@ -166,22 +178,18 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
   }
+  .btn-send-wrapper .btn-send-window .title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+  }
   .client-cards {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .client-cards :nth-child(7),
-  .client-cards :nth-child(8),
-  .client-cards :nth-child(9),
-  .client-cards :nth-child(10),
-  .client-cards :nth-child(11),
-  .client-cards :nth-child(12) {
-    display: flex;
   }
   .section-coll .coll-items {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
   }
-
   .section-recomended .cards-news {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -291,6 +299,9 @@
   .owl-carousel {
     max-width: calc(100vw - 10rem);
   }
+  .section-services .services-title {
+    margin-top: 176px;
+  }
   .services-items {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -366,18 +377,7 @@
     max-width: 1720px;
     margin: 0 auto 60px;
     border-radius: 12px;
-  }
-  .client-cards .card1 {
-    border-radius: 12px 0 0 0;
-  }
-  .client-cards .card4 {
-    border-radius: 0 12px 0 0;
-  }
-  .client-cards .card9 {
-    border-radius: 0 0 0 12px;
-  }
-  .client-cards .card12 {
-    border-radius: 0 0 12px 0;
+    overflow: hidden;
   }
   .recomended {
     max-width: 1600px;

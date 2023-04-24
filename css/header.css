@@ -1,3 +1,10 @@
+body.gradient .header {
+  position: absolute;
+  color: #ffffff;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .header .big-container {
   margin-right: 0px;
   margin-left: -15px;
@@ -186,8 +193,6 @@
 }
 .fb-icon :hover svg circle {
   stroke: var(--color-red);
-}
-.header-link .nav-link {
 }
 .nav-link:hover {
   color: var(--color-blue);

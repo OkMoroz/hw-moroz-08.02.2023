@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services-entry</title>
+    <link rel="icon" href="../../images/mainpage/symbol.png">
     <link rel="stylesheet" href="../../fonts/fonts.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../dist/common.css">
     <link rel="stylesheet" href="../../css/media.css">
-
 </head>
 
 <body>
@@ -102,7 +102,7 @@
                     well how difficult it is to find a good candidate with experience in the field of information
                     technology in Ukraine.
                 </p>
-                <button type="submit" class="btn-send flex">Free consultation</button>
+                <button id="#popup" type="submit" class="btn-send">Free consultation</button>
                 <hr class="grey-line">
             </div>
         </section>
@@ -203,6 +203,32 @@
             </div>
         </div>
     </footer>
+    <div class="btn-send-wrapper">
+        <div class="btn-send-window">
+            <span class="close flex">&times;</span>
+            <div class="client-form flex">
+                <div class="fields">
+                    <h2 class="title">We would like to help you</h2>
+                    <div class="name-mess flex">
+                        <form>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" required placeholder="Name" pattern="[А-Я">
+                            <label for="message"></label>
+                            <textarea id="message" name="message" required placeholder="Message"></textarea>
+                            <p class="answer">How to answer you?</p>
+                            <label for="phone"></label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Phone number">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                            <button type="submit" class="btn-send flex">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>>
+    <script src="../../js/jquery-3.6.4.js"></script>
+    <script src="../../js/script.js"></script>
 </body>
 
 </html>

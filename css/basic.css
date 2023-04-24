@@ -17,6 +17,7 @@
   --color-grey: #b3b3ba;
   --color-blue: #24a3ff;
   --color-white: #ffffff;
+  --logo-height:  120px;
 }
 
 * {
@@ -75,22 +76,19 @@ body {
   padding-left: var(--basic-space);
   padding-right: var(--basic-space);
 }
-
 .hidden {
   display: none !important;
 }
-
 .transition {
   transition: all 0.3s linear;
 }
-
 .bg-gradient {
   background: var(--bg-gradient);
   color: var(--color-white);
 }
-.bg-blue {
-  background-color: var(--bg-blue);
-  color: var(--color-white);
+.bg-white {
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 .bg-grey {
   background: var(--bg-grey);
@@ -111,10 +109,6 @@ body {
 .mb-60 {
   margin-bottom: 60px;
 }
-.bg-white {
-  background-color: var(--color-white);
-  color: var(--color-black);
-}
 
 .gap-4 {
   gap: 4px;
@@ -133,4 +127,7 @@ body {
 
 .flex-end {
   justify-content: flex-end;
+}
+.relative{
+  position: relative;
 }
