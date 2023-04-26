@@ -16,7 +16,7 @@
   --color-grey: #b3b3ba;
   --color-blue: #24a3ff;
   --color-white: #ffffff;
-  --logo-height:  120px;
+  --logo-height: 120px;
   --scrollbar-width: 17px;
 }
 
@@ -87,7 +87,7 @@ body {
   background: var(--bg-grey);
   color: var(--text-color);
 }
-.mb-0{
+.mb-0 {
   margin-bottom: 0;
 }
 .mt-30 {
@@ -105,7 +105,7 @@ body {
 .mb-60 {
   margin-bottom: 60px;
 }
-.pt-30{
+.pt-30 {
   padding-top: 30px;
 }
 .gap-4 {
@@ -126,6 +126,6 @@ body {
 .flex-end {
   justify-content: flex-end;
 }
-.relative{
+.relative {
   position: relative;
 }

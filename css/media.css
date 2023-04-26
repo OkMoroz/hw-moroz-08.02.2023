@@ -182,7 +182,7 @@
     line-height: 46px;
   }
   .section-services-entry .item {
-    margin-top: 280p x;
+    margin-top: 280px;
   }
   .client-cards {
     grid-template-columns: repeat(3, 1fr);
