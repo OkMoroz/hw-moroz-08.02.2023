@@ -435,7 +435,6 @@
   margin: auto;
   justify-content: center;
 }
-.slick-slide img,
 .owl-carousel .owl-item img {
   display: inline-block;
   width: initial;
@@ -451,5 +450,4 @@
 .owl-dots .owl-dot:nth-child(12) {
   display: none;
 }
-
 /*  */
