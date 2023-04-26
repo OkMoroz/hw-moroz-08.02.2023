@@ -18,6 +18,7 @@ $("#slider-cards").owlCarousel({
   responsive: {
     0: {
       items: 1,
+      margin:0,
     },
   },
 });
