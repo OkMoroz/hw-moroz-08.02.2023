@@ -182,7 +182,7 @@
     line-height: 46px;
   }
   .section-services-entry .item {
-    margin-top: 280px;
+    margin-top: 220px;
   }
   .client-cards {
     grid-template-columns: repeat(3, 1fr);
@@ -325,6 +325,9 @@
   .section-services .services-items {
     grid-template-columns: repeat(3, 1fr);
   }
+  .section-services-entry .item {
+    margin-top: 180px;
+  }
   .client-cards {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -353,7 +356,7 @@
     margin-left: 30px;
   }
   .profile-section .card {
-    grid-template-columns: repeat(400px, auto);
+    grid-template-columns: 400px auto;
     grid-template-areas: "I W";
   }
   .i {
@@ -432,9 +435,6 @@
   .slide-item {
     width: 370px;
     height: 110px;
-  }
-  .owl-carousel {
-    max-width: calc(100vw - 10rem);
   }
   .client-cards {
     max-width: 1720px;

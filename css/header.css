@@ -2,8 +2,12 @@ body.gradient .header {
   position: absolute;
   color: #ffffff;
   top: 0;
-  width: 100%;
+  height: 100%;
   z-index: 1;
+}
+body .header {
+  width: 100%;
+  overflow: hidden;
 }
 .header .big-container {
   margin-right: -15px;
@@ -136,6 +140,7 @@ body.gradient .header {
 }
 .header-contacts {
   display: flex;
+  overflow: hidden;
   color: var(--color-grey);
   align-items: center;
   text-align: right;
