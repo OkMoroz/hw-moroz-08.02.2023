@@ -402,7 +402,9 @@ body.gradient .header {
 }
 .section-recomended .cards-news .card-news .img {
   width: 100%;
+  height: 200px;
   border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
 }
 .section-recomended .cards-news .card-news .wrap {
   padding: 30px;
@@ -469,16 +471,16 @@ body.gradient .header {
   margin-right: 28px;
 }
 .btn-send-wrapper .btn-send-window .head-form .close {
+  width: 32px;
+  height: 32px;
   vertical-align: middle;
   justify-content: center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ec6f5d;
   cursor: pointer;
 }
 .btn-send-wrapper .btn-send-window .head-form .close:hover {
-  width: 32px;
-  height: 32px;
   background: #e6e6f0;
   border-radius: 8px;
   transition: all 0.3s scale(1.2);
@@ -490,12 +492,13 @@ body.gradient .header {
 
 .profile-section .card {
   margin-bottom: 30px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 .profile-section .card .card-img {
   height: 375px;
   width: 100%;
   object-fit: cover;
-  border-radius: 12px;
 }
 .profile-section .card .profile {
   flex-direction: column;
@@ -527,16 +530,21 @@ body.gradient .header {
 .profile-section .card .profile .profile-info .dot {
   display: none;
 }
-.profile-section .bio {
+
+#img {
+  border-radius: 12px;
+}
+
+.bio {
   flex-direction: column;
 }
-.profile-section .bio .bio-wrap {
+.bio .bio-wrap {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #000000;
 }
-.profile-section .bio .bio-title {
+.bio .bio-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;

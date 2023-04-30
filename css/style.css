@@ -283,7 +283,9 @@
 }
 .section-publications .img {
   width: 100%;
+  height: 200px;
   border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
 }
 .section-publications .wrap {
   padding: 30px;

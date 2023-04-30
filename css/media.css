@@ -20,11 +20,15 @@
   .gradient .header-link .nav-link:hover {
     color: var(--color-white);
     border-color: var(--color-white);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
   }
   .gradient .header-link .active-page {
     color: var(--color-red);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
   }
   .header .big-container {
     margin: 0 auto;
@@ -60,10 +64,6 @@
   }
   .header .dot {
     display: inline-block;
-  }
-  .input:hover ~ span {
-    background-color: var(--bg-grey);
-    border-radius: 8px;
   }
   .header-contacts .adress {
     display: inline-block;
@@ -187,8 +187,8 @@
   .client-cards {
     grid-template-columns: repeat(3, 1fr);
   }
-  .section-coll .coll-items {
-    grid-template-columns: repeat(2, 1fr);
+  .section-coll .coll {
+    columns: 2;
     gap: 60px;
   }
   .section-recomended .cards-news {
@@ -233,6 +233,8 @@
   .tabs-section .first-menu .name {
     font-size: 38px;
     line-height: 46.32px;
+    white-space: pre-line;
+    text-align: right;
   }
   .tabs-section .second-menu .menu-title {
     font-size: 30px;

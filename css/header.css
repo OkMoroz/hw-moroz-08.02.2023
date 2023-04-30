@@ -2,7 +2,6 @@ body.gradient .header {
   position: absolute;
   color: #ffffff;
   top: 0;
-  height: 100%;
   z-index: 1;
 }
 body .header {
@@ -174,10 +173,18 @@ body .header {
   padding: 5px 7px;
   cursor: pointer;
 }
+.input:hover ~ span {
+  background-color: var(--bg-grey);
+  border-radius: 8px;
+}
+
 .input:checked ~ span {
   color: var(--color-white);
   background-color: var(--color-red);
   border-radius: 8px;
+}
+.bg-blue .input:hover ~ span {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .header-contacts .adress {
   display: none;
@@ -202,11 +209,15 @@ body .header {
 .nav-link:hover {
   color: var(--color-blue);
   border-color: var(--color-blue);
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
 }
 .active-page {
   color: var(--color-red);
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
 }
 .bg-blue {
   background-color: rgba(245, 245, 250, 0.2);
